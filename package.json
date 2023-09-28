@@ -1,0 +1,34 @@
+{
+  "name": "sm-service-layer",
+  "version": "0.0.1",
+  "description": "This is a service layer for my SM application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./configurations/cluster.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaisriramr/SM-Service-Layer.git"
+  },
+  "keywords": [
+    "microservice",
+    "node"
+  ],
+  "author": "jaisriramr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaisriramr/SM-Service-Layer/issues"
+  },
+  "homepage": "https://github.com/jaisriramr/SM-Service-Layer#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
